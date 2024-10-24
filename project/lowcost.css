@@ -1,0 +1,68 @@
+/* Styles for the main container */
+.a {
+    background-color: #f5f5f5; /* Light gray background for better contrast */
+    padding: 20px; /* Padding around the container */
+    min-height: 100vh; /* Ensure the page takes full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Grid container for cards */
+.low-cost-grid {
+    padding-left: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /* Center the grid and constrain its width */
+}
+
+/* Card styling */
+.MuiCard-root {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    background: white; /* White background for card */
+}
+
+.MuiCard-root:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow on hover */
+}
+
+/* Card media styling */
+.MuiCardMedia-root {
+    border-bottom: 2px solid #ddd; /* Adds a subtle border at the bottom of the image */
+}
+
+/* Card content */
+.MuiCardContent-root {
+    text-align: center;
+    padding: 16px;
+}
+
+.MuiTypography-h6 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 8px; /* Space between name and type */
+}
+
+.MuiTypography-body2 {
+    color: #555;
+    margin-bottom: 4px;
+}
+
+.MuiTypography-body2.color-textSecondary {
+    color: #ff5722; /* Different color for discount */
+}
+
+.MuiButton-containedPrimary {
+    background-color: #2196F3; /* Customize button color */
+    color: #fff;
+    padding: 8px 16px;
+    font-weight: bold;
+    text-transform: none; /* Keeps the button text from being all caps */
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #1976D2; /* Darker shade on hover */
+}
